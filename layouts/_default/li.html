@@ -1,12 +1,12 @@
-<li class='item'>
-  <div class='meta'>
-    {{ partial "list/date" . }}
-  </div>
-  <header class='item-header'>
-    <h3 class='item-title'>
-      <a href='{{ .Permalink | relURL }}'>
+<li class="item">
+  <header class="item-header">
+    <h2 class="item-title">
+      <a href="{{ .Permalink | relURL }}">
         {{- .Title -}}
       </a>
-    </h3>
+    </h2>
   </header>
+  <div class="meta">
+    {{ partial "list/date" . }}
+  </div>
 </li>

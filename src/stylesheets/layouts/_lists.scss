@@ -9,9 +9,10 @@
   }
 
   .item {
-    display: flex;
+    // display: flex;
     width: 100%;
     margin-top: 1em;
+    margin-bottom: 3em;
 
     &:first-of-type {
       margin-top: 0;
@@ -30,8 +31,8 @@
     }
 
     &-title {
-      @include font-size(1);
-      font-weight: 400;
+      // @include font-size(1);
+      // font-weight: 400;
       margin-bottom: 0;
       line-height: inherit;
     }
