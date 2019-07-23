@@ -52,6 +52,10 @@
   li {
     max-width: 100%;
     padding: 0 1.5em 0.5em 0;
+    a {
+      @include border-animate(4px);
+      font-weight: bold;
+    }
 
     text-overflow: ellipsis;
     white-space: nowrap;

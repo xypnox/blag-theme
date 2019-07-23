@@ -5,9 +5,14 @@
     &:first-child {
       margin-top: 2.5em;
     }
+
+    .tag {
+      @include border-animate(2px);
+    }
   }
 
   .icon {
+    top: 6px;
     margin-right: 0.375em;
   }
 }

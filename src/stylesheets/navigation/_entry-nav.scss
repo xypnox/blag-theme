@@ -9,15 +9,20 @@
   }
 
   div {
+    .icon {
+      top: 5px;
+    }
     a {
       display: block;
-      font-style: italic;
+      @include font-size($font-size__h4);
+      font-weight: 700;
     }
 
     span {
       display: block;
       font-style: normal;
-      @include font-size(0.875);
+      font-weight: normal;
+      @include font-size(0.675);
     }
   }
 }

@@ -7,3 +7,15 @@
     @content;
   }
 }
+
+@mixin border-animate($size) {
+  border-bottom: $size solid #00000000;
+  transition: border 0.5s ease-out;
+
+  &:hover {
+    border-bottom: $size solid $color__accent;
+    border-bottom: $size solid var(--color-accent);
+  }
+
+
+}

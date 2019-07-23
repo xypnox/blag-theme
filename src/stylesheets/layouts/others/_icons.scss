@@ -8,6 +8,9 @@
 
   position: relative;
   top: 2px;
+
+  color: $color__accent;
+  color: var(--color-accent);
 }
 
 img.emoji {
