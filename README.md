@@ -1,6 +1,12 @@
-[![GitHub release](https://img.shields.io/github/release/MunifTanjim/minimo.svg?style=for-the-badge)](https://github.com/MunifTanjim/minimo/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/MunifTanjim/minimo.svg?style=for-the-badge)](https://github.com/MunifTanjim/minimo/releases)
-[![license](https://img.shields.io/github/license/MunifTanjim/minimo.svg?style=for-the-badge)](https://github.com/MunifTanjim/minimo/blob/master/LICENSE)
+# Blag Theme
+
+This is the source code of my blag's theme.
+
+I have used [minimo](https://minimo.netlify.com/) Theme. Obviously I have modified it, the fonts used are [Crimson Text](https://fonts.google.com/specimen/Crimson+Text) and [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans).
+
+Below is the default readme of Minimo.
+
+---
 
 ![Minimo – Minimalist theme for Hugo](https://raw.githubusercontent.com/MunifTanjim/minimo/master/images/tn.png)
 
